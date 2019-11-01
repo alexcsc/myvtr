@@ -1,0 +1,43 @@
+<button (click)="rewind()" [disabled]="disableBtn">
+    <i class="material-icons">
+        fast_rewind
+    </i>
+</button>
+
+<button (click)="frameBack()" [disabled]="disableBtn">
+    <i class="material-icons">
+        skip_previous
+    </i>
+</button>
+
+<button (click)="stop()" [disabled]="disableBtn">
+    <i class="material-icons">
+        stop
+    </i>
+</button>
+
+<button (click)="playPause()" [disabled]="disableBtn">
+    <i class="material-icons">
+        {{ playPauseBtn }}
+    </i>
+</button>
+
+<button (click)="frameForward()" [disabled]="disableBtn">
+    <i class="material-icons">
+        skip_next
+    </i>
+</button>
+
+<button (click)="fastForward()" [disabled]="disableBtn">
+    <i class="material-icons">
+        fast_forward
+    </i>
+</button>
+
+<p></p>
+
+<button id="recbtn" (click)="record()">
+    <i class="material-icons">
+        fiber_manual_record
+    </i>
+</button>

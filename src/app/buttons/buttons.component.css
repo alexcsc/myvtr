@@ -1,0 +1,12 @@
+button {
+    padding: 4px;
+    background-color: white;
+    margin: 1px;
+    border: none;
+}
+
+#recbtn {
+    background-color: #d33232;
+    padding: 4px 20px;
+    color: white;
+}
